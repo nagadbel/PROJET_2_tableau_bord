@@ -31,13 +31,14 @@ header .logo{
      margin-right: 10px;
     margin-left: 10px;
     border-radius: 20px;
-    background-color: aliceblue;
+    background-color: white;
     transition: 0.5s;
 
 }
 
 header .logo:hover{
-    transform: rotate(5deg)
+    transform: rotate(5deg);
+    background-color: aliceblue;
    
 }
 
@@ -64,14 +65,36 @@ header a:hover{
 
 /*/ Partie pour ayan /*/
 
-#Aceuille {
-    text-align: center;
-    
+#Homepage .first h1{
+    margin-left: 350px;
+    margin-top: 20px;
+    font-size: 50px;
+    color: blueviolet;
+     background-color: white;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+#Homepage  h2{
+    font-size: 30px;
+    color: rgb(212, 177, 245);
+    padding-left: 30px;
+    margin-top: 30px;
+
 }
 
 
 
+
+
 /*/ Partie pour assia /*/
+
+.title h1{
+    text-align: center;
+    
+}
+
+/*/ Partie pour Nagad /*/
 
 .title h1{
     text-align: center;

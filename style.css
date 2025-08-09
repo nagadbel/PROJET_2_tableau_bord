@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-style: italic;
+}
+
+/*/ Menu /*/
+
+body{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgb(212, 177, 245);
+    height: 100vh;
+
+}
+
+header .logo{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    padding: 20px;
+     margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    transition: 0.5s;
+
+}
+
+header .logo:hover{
+    transform: rotate(5deg)
+   
+}
+
+header .menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+
+}
+
+header a:hover{
+    transform:scale(1.2);
+}
+
+
+/*/ Partie pour ayan /*/
+
+#Aceuille {
+    text-align: center;
+    
+}
+
+
+
+/*/ Partie pour assia /*/
+
+.title h1{
+    text-align: center;
+    
+}

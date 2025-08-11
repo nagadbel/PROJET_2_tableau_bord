@@ -1,179 +1,309 @@
-*{
-    margin:0px;
-    padding:0px;
-    font-style: italic;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 /*/ Menu /*/
 
-body{
-    background-color: aliceblue;
-    width: 100%;
-    display: flex;
+body {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    background-color: rgb(212, 177, 245);
-    height: 100vh;
-
+header {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: rgb(212, 177, 245);
+  height: 100vh;
 }
 
-header .logo{
-    font-size: 35px;
-    color: black;
-    text-align: center;
-    margin-top: 30px;
-    font-weight: bolder;
-    padding: 20px;
-     margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 20px;
-    background-color: white;
-    transition: 0.5s;
-
+header .logo {
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bolder;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: white;
+  transition: 0.5s;
 }
 
-header .logo:hover{
-    transform: rotate(5deg);
-    background-color: aliceblue;
-   
+header .logo:hover {
+  transform: rotate(5deg);
+  background-color: aliceblue;
 }
 
-header .menu{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 30px;
+header .menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
 }
 
-header a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin-bottom: 30px;
-    transition: 0.5s;
-
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  transition: 0.5s;
 }
 
-header a:hover{
-    transform:scale(1.2);
+header a:hover {
+  transform: scale(1.2);
 }
-
 
 /*/ Partie pour ayan /*/
 
-#Homepage .first h1{
-    margin-left: 350px;
-    margin-top: 20px;
-    font-size: 50px;
-    color: blueviolet;
-     background-color: white;
-     padding: 10px;
-     border-radius: 20px;
+#Homepage .first h1 {
+  margin-left: 350px;
+  margin-top: 20px;
+  font-size: 50px;
+  color: blueviolet;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-#Homepage  h2{
-    font-size: 30px;
-    color: rgb(212, 177, 245);
-    padding-left: 30px;
-    margin-top: 30px;
-
+h2 {
+  font-size: 30px;
+  color: rgb(212, 177, 245);
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.person{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    gap: 20px;
-    background-color: white;
-    padding: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
-    border-radius: 20px;
+.person {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  background-color: white;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
 }
 
-.person h3{
-    color: rgb(13, 66, 116);
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    
+.person h3 {
+  color: rgb(13, 66, 116);
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 span {
-    color: rgb(247, 239, 239);
-    margin-bottom: 20px;
-    font-size: 50px;
+  color: rgb(247, 239, 239);
+  margin-bottom: 20px;
+  font-size: 50px;
 }
 
-.person img:hover{
-    transform: rotate(2deg);
+.person img:hover {
+  transform: rotate(2deg);
 }
 
-.person1{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: rgb(90, 90, 248);
-    padding: 20px;
-    border-radius: 20px;
+.person1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(90, 90, 248);
+  padding: 20px;
+  border-radius: 20px;
 }
 
-.person2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: rgb(225, 233, 122);
-     padding: 20px;
-    border-radius: 20px;
-    transition: 0.6s;
+.person2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(225, 233, 122);
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.6s;
 }
 
-.person2:hover{
-     background-color: rgb(90, 90, 248);
-    
+.person2:hover {
+  background-color: rgb(90, 90, 248);
 }
 
-.person3{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: rgb(247, 142, 247);
-     padding: 20px;
-    border-radius: 20px;
-    transition: 0.6s;
+.person3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(247, 142, 247);
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.6s;
 }
-.person3:hover{
-     background-color: rgb(90, 90, 248);
-    
-}
-
-.person4{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    background-color: rgb(128, 243, 128);
-     padding: 20px;
-    border-radius: 20px;
-    transition: 0.6s;
-}
-.person4:hover{
-     background-color: rgb(90, 90, 248);
-    
+.person3:hover {
+  background-color: rgb(90, 90, 248);
 }
 
-
-
+.person4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(128, 243, 128);
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.6s;
+}
+.person4:hover {
+  background-color: rgb(90, 90, 248);
+}
 
 /*/ Partie pour assia /*/
 
-.title h1{
-    text-align: center;
-    
+.title h1 {
+  text-align: center;
 }
 
 /*/ Partie pour Nagad /*/
 
-.title h1{
-    text-align: center;
-    
+.Bloc {
+  background: white;
+  margin: 30px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.salon {
+  display: flex;
+  flex-direction: column;
+  background: rgb(90, 90, 248);
+  color: white;
+  padding: 20px;
+}
+.logos {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(225, 233, 122);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #f8f8f8;
+}
+.recherche input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 310px;
+}
+
+.titre {
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 10px;
+}
+.butto button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.btn_ajouter {
+  background: rgb(247, 142, 247);
+  color: rgb(2, 2, 2);
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  padding: 12px 15px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+td {
+  padding: 12px 15px;
+  text-align: left;
+}
+th {
+  background: rgb(247, 142, 247);
+  letter-spacing: 1px;
+}
+tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.statuactif {
+  padding: 4px 8px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  background: rgb(128, 243, 128);
+  font-weight: bolder;
+}
+
+.statuinactif {
+  padding: 4px 8px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  background: rgb(90, 90, 248);
+  font-weight: bolder;
+}
+.statunouveau {
+  padding: 4px 8px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  background: rgb(225, 233, 122);
+  font-weight: bolder;
+}
+
+.statuadmin {
+  padding: 4px 8px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  background: rgb(247, 142, 247);
+  font-weight: bolder;
+}
+
+.actions button {
+  border: none;
+  padding: 6px 8px;
+  margin-right: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.edit {
+  background: rgb(90, 90, 248);
+}
+.delete {
+  background: rgb(225, 233, 122);
+}
+
+.decor {
+  padding: 15px;
+  text-align: center;
+}
+.decor button {
+  margin: 0 4px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.page {
+  background: rgb(247, 142, 247);
+  color: white;
+}
+
+@media (max-width: 764px) {
+  table {
+    flex-direction: column;
+  }
 }
